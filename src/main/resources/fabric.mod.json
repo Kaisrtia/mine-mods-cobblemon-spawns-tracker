@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "cobblemonnotificationtracker",
+	"version": "${version}",
+	"name": "CobblemonNotificationTracker",
+	"description": "Server-side Cobblemon notification tracker for spawned Pokemon",
+	"authors": [
+		"kaisrtia"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/cobblemonnotificationtracker/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.kaisrtia.cobblemonnotificationtracker.CobblemonNotificationTracker"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cobblemon": ">=1.7.3"
+	}
+}
